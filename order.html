@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Order here</title>
+    <link href="css.css" rel="stylesheet">
+    
+</head>
+<body>
+    <img src="file:///D:/Users/odera/Downloads/Screenshot%202025-03-17%20222711-Photoroom.png" id="geable"/ width="200" height="100"">
+    <div class="information">
+        
+     
+        <a href="index.html">Information</a>  
+
+        <a href="aboutus.html">About</a>     
+
+        <p>Order</p>    
+
+        <a href="credits.html">Credits</a>
+        
+
+    </div>
+    <h1>Order below</h1>
+    <p>The oof head will replace</p>
+
+    <img src="https://target.scene7.com/is/image/Target/GUEST_4d923e18-8429-4e69-b66e-ce10cc1c2bac?wid=800&hei=800&qlt=80&fmt=pjpeg" width="20%" height="20%" />
+    <p>59.99 dollars for one pack</p>
+    <p id="money">Cost: 59.99$</p>
+    
+    <form action="order complete.html">
+       <!--- <label for="amount">How many packs do ou want to buy</label>
+        <select id="amount" onchange="changecas()" name="amount" id="amount">
+            <option value=1 >1</option>
+            <option value=2>2</option>
+            <option value=34>34</option>
+            <option value=892>892</option>
+            <option value=2763>2,763</option>
+            <option value=102141123>102,141,123</option>
+            <option value="infinity">infinity</option>
+        </select> --->
+        <label for="money">I want to buy</label>
+        <input type="number" name="money" id="money" value="1" onchange="changecas(value)" required/>
+        <br>
+        <br>
+        <label for="flavor">Which flavor do you want?</label>        
+        <select id="flavor">
+            <option>pink</option>
+            <option>teal</option>
+        </select>
+        <br>
+        <br>
+        <label for="location">Where do you want it delivered</label>
+        <input type="text" id="location" required>
+        <br>
+        <br>
+        <label for="card">Enter your credit card number</label>
+        <input type="password" id="card" required>
+        <br>
+        <br>
+
+        <input type="submit">
+
+        
+    </form>
+    <script>
+        function changecas(the) {    
+    
+            var num = document.getElementById("money").value;
+            var cash = document.getElementById("money");
+            
+            cash.innerHTML = "Cost: " + (the * 59.99) + "$";
+        }
+        /*function lenk() {
+            window.open("order complete.html");
+        }*/
+    </script>
+</body>
+</html>
+<footer>© 2025 www.effectgummies.com - All Rights Reserved.</footer>

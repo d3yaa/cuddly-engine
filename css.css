@@ -1,0 +1,64 @@
+#geable {
+    padding-left: 43%;
+}
+
+
+body {
+    
+    font-family: 'Calibri';
+}
+p {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    bottom: 30px;
+    
+}
+
+.information p {
+    background-color: yellow;
+}
+.highlight {
+    background-color: yellow;
+}
+
+h1 {
+    border-bottom: 2px solid;
+    
+    font-size:120px;
+    color: rgb(225, 223, 223);
+    
+    
+    
+}
+
+.middle {
+    margin:auto;
+    width: 50%;
+    padding: 10px;
+}
+
+a {
+    color:black;
+
+}
+a:hover {
+        color: rgb(151, 151, 151);
+    }
+.information{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+    
+    word-spacing: 130px;
+    
+    overflow-x:hidden;
+    max-width: 200vw;
+    padding-inline-end: 200px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    text-underline-offset: -300px;
+    color:rgb(0, 0, 0);
+    padding-left: 160px;
+}
